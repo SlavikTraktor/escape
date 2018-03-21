@@ -21,6 +21,8 @@ game/Library/metadata/
 game/Library/cache/
 game/Library/previews/
 game/obj/
+game/.vscode/
 
+game.sln
 *.suo
 *.apk
