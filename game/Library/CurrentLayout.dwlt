@@ -70,7 +70,15 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 471}
   m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
+<<<<<<< HEAD
   controlID: 80
+=======
+<<<<<<< HEAD
+  controlID: 44
+=======
+  controlID: 23
+>>>>>>> d94df4091cc800e119b940a27e84f8b1560d8a14
+>>>>>>> 1fab916bc74f7eaf1163e4491eb48bac6143d66e
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -87,10 +95,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 404
+    height: 548
+=======
     width: 234
+<<<<<<< HEAD
     height: 266
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    height: 306
+>>>>>>> d94df4091cc800e119b940a27e84f8b1560d8a14
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+>>>>>>> 1fab916bc74f7eaf1163e4491eb48bac6143d66e
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -120,7 +139,15 @@ MonoBehaviour:
   m_MinSize: {x: 613, y: 471}
   m_MaxSize: {x: 18008, y: 14021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 135
+=======
+<<<<<<< HEAD
+  controlID: 65
+=======
+  controlID: 22
+>>>>>>> d94df4091cc800e119b940a27e84f8b1560d8a14
+>>>>>>> 1fab916bc74f7eaf1163e4491eb48bac6143d66e
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,11 +188,27 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 468
     width: 855
     height: 167
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+<<<<<<< HEAD
+    y: 959
+    width: 1683
+    height: 345
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+=======
+    y: 538
+    width: 929
+    height: 192
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+>>>>>>> d94df4091cc800e119b940a27e84f8b1560d8a14
+>>>>>>> 1fab916bc74f7eaf1163e4491eb48bac6143d66e
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -190,9 +233,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1366
     height: 685
   m_MinSize: {x: 950, y: 521}
+=======
+<<<<<<< HEAD
+    width: 2560
+    height: 1354
+  m_MinSize: {x: 950, y: 542}
+=======
+    width: 1440
+    height: 780
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> d94df4091cc800e119b940a27e84f8b1560d8a14
+>>>>>>> 1fab916bc74f7eaf1163e4491eb48bac6143d66e
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &9
 MonoBehaviour:
@@ -253,10 +308,22 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 855
     height: 635
+=======
+<<<<<<< HEAD
+    width: 1683
+    height: 1304
+  m_MinSize: {x: 102, y: 221}
+  m_MaxSize: {x: 4002, y: 8021}
+=======
+    width: 929
+    height: 730
+>>>>>>> 1fab916bc74f7eaf1163e4491eb48bac6143d66e
   m_MinSize: {x: 102, y: 242}
   m_MaxSize: {x: 4002, y: 8042}
+>>>>>>> d94df4091cc800e119b940a27e84f8b1560d8a14
   vertical: 1
   controlID: 10
 --- !u!114 &12
@@ -312,14 +379,20 @@ MonoBehaviour:
     width: 853
     height: 447
   m_SceneLighting: 1
-  lastFramingTime: 17840.300073738275
+  lastFramingTime: 493.9778153664743
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
+    m_Target: {x: -0.37483975, y: 0.5473897, z: 0.30664062}
+    speed: 2
+    m_Value: {x: -0.37483975, y: 0.5473897, z: 0.30664062}
+=======
     m_Target: {x: -0.5656557, y: 0.2566513, z: 0.2228874}
     speed: 2
     m_Value: {x: -0.5656557, y: 0.2566513, z: 0.2228874}
+>>>>>>> d94df4091cc800e119b940a27e84f8b1560d8a14
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -346,9 +419,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
+    m_Target: 12.457198
+    speed: 2
+    m_Value: 12.457198
+=======
     m_Target: 10.187519
     speed: 2
     m_Value: 10.187519
+>>>>>>> d94df4091cc800e119b940a27e84f8b1560d8a14
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -402,13 +481,29 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: E:\projects\unity\escape\game
+=======
+<<<<<<< HEAD
+  m_LastProjectPath: D:\PROJECTS\UNITY\escape-game\game
+=======
+  m_LastProjectPath: /Users/aleksandrgolubkin/Escape/escape/game
+>>>>>>> d94df4091cc800e119b940a27e84f8b1560d8a14
+>>>>>>> 1fab916bc74f7eaf1163e4491eb48bac6143d66e
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 06000000
     m_LastClickedID: 6
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000002290000202900002a2900003029000042290000442900004e2900006c290000dc290000de290000e0290000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000a2270000ba270000c6270000cc270000e4270000e6270000f62700001c280000b8280000ba280000bc280000
+=======
+    m_ExpandedIDs: 0000000082270000a0270000aa270000b0270000ca270000ce270000da270000fe270000982800009a2800009c280000
+>>>>>>> d94df4091cc800e119b940a27e84f8b1560d8a14
+>>>>>>> 1fab916bc74f7eaf1163e4491eb48bac6143d66e
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -436,7 +531,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000002290000202900002a2900003029000042290000442900004e2900006c290000dc290000de290000e0290000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000fe05000024070000a2270000ba270000c6270000cc270000f62700001c280000b8280000ba280000bc2800005a290000
+=======
+    m_ExpandedIDs: 0000000082270000a0270000aa270000b0270000ca270000ce270000da270000fe270000982800009a2800009c280000
+>>>>>>> d94df4091cc800e119b940a27e84f8b1560d8a14
+>>>>>>> 1fab916bc74f7eaf1163e4491eb48bac6143d66e
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -554,21 +657,29 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: e0f9ffff00000000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 9efbffff00000000662800006e280000
+=======
+    m_ExpandedIDs: 2cf6fffffcf6ffff38f8ffff9efbffff00000000
+>>>>>>> d94df4091cc800e119b940a27e84f8b1560d8a14
+>>>>>>> 1fab916bc74f7eaf1163e4491eb48bac6143d66e
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: New Sprite
+      m_OriginalName: New Sprite
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -4062
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
