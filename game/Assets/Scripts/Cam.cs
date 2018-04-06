@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 public class Cam : MonoBehaviour {
+	private float offsetY;
 	private Vector3 offset;
 	public GameObject player;
 
@@ -10,6 +11,7 @@ public class Cam : MonoBehaviour {
 	}
 
 	void LateUpdate(){
-		transform.position = player.transform.position + offset;
+		transform.position = new Vector3(player.transform.position.x + offset.x,offset.y,player.transform.position.z + offset.z);
+
 	}
 }
