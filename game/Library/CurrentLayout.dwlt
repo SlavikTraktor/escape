@@ -13,10 +13,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 371
     y: 153
     width: 1920
     height: 976
+=======
+    x: 0
+    y: 45
+    width: 1440
+    height: 779
+>>>>>>> 8364c02123cbd326fc3356a71359164901acab7a
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
@@ -110,7 +117,11 @@ MonoBehaviour:
   m_MinSize: {x: 579, y: 242}
   m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 53
+=======
+  controlID: 94
+>>>>>>> 8364c02123cbd326fc3356a71359164901acab7a
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +170,11 @@ MonoBehaviour:
   m_MinSize: {x: 104, y: 242}
   m_MaxSize: {x: 4004, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 84
+=======
+  controlID: 108
+>>>>>>> 8364c02123cbd326fc3356a71359164901acab7a
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,10 +275,17 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 381
     y: 95
     width: 1600
     height: 713
+=======
+    x: 215
+    y: 94
+    width: 898
+    height: 389
+>>>>>>> 8364c02123cbd326fc3356a71359164901acab7a
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 1
@@ -285,7 +307,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -337,6 +359,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 371
     y: 202
     width: 282
@@ -347,6 +370,18 @@ MonoBehaviour:
     m_SelectedIDs: 2c2c0000
     m_LastClickedID: 11308
     m_ExpandedIDs: 9cf5ffff00000000
+=======
+    x: 0
+    y: 94
+    width: 211
+    height: 708
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ee290000
+    m_LastClickedID: 10734
+    m_ExpandedIDs: 98fbffff00000000282a0000
+>>>>>>> 8364c02123cbd326fc3356a71359164901acab7a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -391,10 +426,17 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 657
     y: 202
     width: 1199
     height: 500
+=======
+    x: 215
+    y: 94
+    width: 898
+    height: 389
+>>>>>>> 8364c02123cbd326fc3356a71359164901acab7a
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 937.1680220365524
@@ -402,9 +444,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.96968, y: -1.4314274, z: -0.0478415}
+    m_Target: {x: -8.83402, y: -1.2497219, z: -0.06846219}
     speed: 2
-    m_Value: {x: -9.96968, y: -1.4314274, z: -0.0478415}
+    m_Value: {x: -8.83402, y: -1.2497219, z: -0.06846219}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -432,9 +474,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.689417
+    m_Target: 13.752233
     speed: 2
-    m_Value: 11.689417
+    m_Value: 13.752233
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -528,10 +570,17 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 657
     y: 723
     width: 1199
     height: 384
+=======
+    x: 215
+    y: 504
+    width: 898
+    height: 298
+>>>>>>> 8364c02123cbd326fc3356a71359164901acab7a
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &16
 MonoBehaviour:
@@ -555,10 +604,17 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 381
     y: 829
     width: 1600
     height: 549
+=======
+    x: 215
+    y: 504
+    width: 898
+    height: 298
+>>>>>>> 8364c02123cbd326fc3356a71359164901acab7a
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -572,12 +628,13 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Sprites
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Sprites
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: D:\PROJECTS\UNITY\escape-game\game
   m_IsLocked: 0
   m_FolderTreeState:
@@ -585,6 +642,15 @@ MonoBehaviour:
     m_SelectedIDs: e02a0000
     m_LastClickedID: 10976
     m_ExpandedIDs: 00000000462a0000c22a0000082c000000ca9a3bffffff7f
+=======
+  m_LastProjectPath: /Users/aleksandrgolubkin/Escape/escape/game
+  m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 40280000
+    m_LastClickedID: 10304
+    m_ExpandedIDs: 00000000bc270000402800009c29000000ca9a3bffffff7f
+>>>>>>> 8364c02123cbd326fc3356a71359164901acab7a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -612,7 +678,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000462a0000c22a0000082c0000
+=======
+    m_ExpandedIDs: 00000000bc270000402800009c290000
+>>>>>>> 8364c02123cbd326fc3356a71359164901acab7a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -689,10 +759,17 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1860
     y: 202
     width: 431
     height: 905
+=======
+    x: 1117
+    y: 94
+    width: 323
+    height: 708
+>>>>>>> 8364c02123cbd326fc3356a71359164901acab7a
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0

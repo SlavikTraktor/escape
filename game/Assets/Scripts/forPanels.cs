@@ -22,6 +22,7 @@ public class forPanels : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IBe
 			if (eventData.delta.y > 0) {
 				rb.AddForce (rb.transform.up * Player.JumpScale, ForceMode2D.Impulse);
 				useSwap = false;
+				player.transform.localScale =  new Vector2 (rb.transform.localScale.x, 1.4f);
 				player.GetComponent <Animator> ().Play ("Jump");
 			} 
 			if (eventData.delta.y < 0) {
