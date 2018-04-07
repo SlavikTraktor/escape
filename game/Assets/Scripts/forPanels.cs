@@ -25,7 +25,7 @@ public class forPanels : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IBe
 				player.GetComponent <Animator> ().Play ("Jump");
 			} 
 			if (eventData.delta.y < 0) {
-				player.transform.localScale =  new Vector2 (rb.transform.localScale.x, 0.6);
+				player.transform.localScale =  new Vector2 (rb.transform.localScale.x, 0.6f);
 			} 
 		}
 		if(player.GetComponent<Player>().away == true)
