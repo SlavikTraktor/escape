@@ -35,7 +35,7 @@ public class forPanels : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IBe
 	}
 
 	public void OnDrag(PointerEventData eventData){
-	}
+	}	
 
 	/////////////////////////////////////////////////////////////////////////Game
 	void Start () {
