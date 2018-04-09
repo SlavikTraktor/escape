@@ -53,21 +53,23 @@ public class forPanels : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IBe
 	}
 
 	/////////////////////////////////////////////////////////////////////////touch
-	public void OnPointerDown (PointerEventData eventData){
-		if (count == 1) {
-			rb.transform.rotation = Quaternion.Euler (0, 0, 0);	
-			RPanel.GetComponent<Image> ().enabled = false;
-		} 
-		else {
-			rb.transform.rotation = Quaternion.Euler (0, 180, 0);
-			LPanel.GetComponent<Image> ().enabled = false;
-			}
-		player.GetComponent <Animator> ().Play ("New Animation");
-		move = true;
-		if (player.GetComponent<Player> ().away == true)
-			useSwap = true;
-		if (player.GetComponent<Player> ().away == false)
-			player.GetComponent <Animator> ().Play ("Jump");
+	public void OnPointerDown (PointerEventData eventData) {
+		if (!Player.isHidden) {
+			if (count == 1) {
+				rb.transform.rotation = Quaternion.Euler (0, 0, 0);	
+				RPanel.GetComponent<Image> ().enabled = false;
+			} 
+			else {
+				rb.transform.rotation = Quaternion.Euler (0, 180, 0);
+				LPanel.GetComponent<Image> ().enabled = false;
+				}
+			player.GetComponent <Animator> ().Play ("New Animation");
+			move = true;
+			if (player.GetComponent<Player> ().away == true)
+				useSwap = true;
+			if (player.GetComponent<Player> ().away == false)
+				player.GetComponent <Animator> ().Play ("Jump");
+		}
 	}
 
 	public void OnPointerUp (PointerEventData eventData){
