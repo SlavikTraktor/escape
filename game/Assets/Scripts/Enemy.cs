@@ -17,14 +17,16 @@ public class Enemy : MonoBehaviour {
 
 		if (transform.position.x == max) {
 			target = min;
+			transform.localScale = new Vector2((-1) * transform.localScale.y, transform.localScale.y);
 		} else if (transform.position.x == min) {
 			target = max;
+			transform.localScale = new Vector2(transform.localScale.y, transform.localScale.y);
 		}
 	}
 
 	void OnCollisionEnter2D(Collision2D other) {
-		if (other.gameObject.name == "Player") {
+		if (other.gameObject.name == "Player" && !Player.isHidden) {
 			Debug.Log("You are gay");
-		}
+		} 
 	}
 }

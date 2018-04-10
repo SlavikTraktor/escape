@@ -92,7 +92,7 @@ public class forPanels : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IBe
 	}
 
 
-	void s(){
+	void s() {
 		if (move) 
 			rb.transform.position = Vector3.MoveTowards (rb.transform.position,rb.transform.position + 
 				new Vector3(count,0,0),Player.speed*Time.deltaTime);

@@ -7,9 +7,17 @@ using UnityEngine.SceneManagement;
 
 public class SecretKey : MonoBehaviour {
 
+	private GameObject player;
+
+	void Start () {
+		player = GameObject.Find("Player");
+	}
+
 	public void OnMouseDown () {
-		Player.isHaveSecretKey = true;
-		
-		Destroy(this.gameObject);
+		if (transform.position.x + 3f >= player.transform.position.x 
+		&& transform.position.x - 3f <= player.transform.position.x) {
+			Player.isHaveSecretKey = true;
+			Destroy(this.gameObject);
+		}
 	}
 }
