@@ -11,7 +11,7 @@ public class Cam : MonoBehaviour {
 	}
 
 	void LateUpdate(){
-		transform.position = new Vector3(player.transform.position.x + offset.x,offset.y,player.transform.position.z + offset.z);
+		transform.position = new Vector3(player.transform.position.x + offset.x,offset.y,offset.z);
 
 	}
 }

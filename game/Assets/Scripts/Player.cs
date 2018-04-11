@@ -11,9 +11,11 @@ public class Player : MonoBehaviour {
 	public GameObject L;
 	public GameObject R;
 	private bool sta;
+	public static bool isHaveSecretKey;
+	public static bool isHidden;
 	//public Button but;
 
-	void OnCollisionEnter2D(Collision2D other){
+	void OnCollisionEnter2D(Collision2D other) {
 		if (other.gameObject.tag == "Ground")
 			away = true;
 		if (other.gameObject.tag == "Walls") {
@@ -38,14 +40,16 @@ public class Player : MonoBehaviour {
 		
 //?
 
-	void OnCollisionExit2D(Collision2D other){
+	void OnCollisionExit2D(Collision2D other) {
 		if (other.gameObject.tag == "Ground") {
 			away = false;
 			//print ("test");
 		}
 	}
 
-	void start(){
+	void start() {
+		isHaveSecretKey = false;
+		isHidden = false;
 	}
 		
 }
