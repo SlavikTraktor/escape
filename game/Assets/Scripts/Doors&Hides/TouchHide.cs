@@ -17,7 +17,7 @@ public class TouchHide : MonoBehaviour {
 	void OnMouseDown() {
 		if (transform.position.x + 7f >= player.transform.position.x 
 		&& transform.position.x - 7f <= player.transform.position.x && !Player.isHidden) {
-			player.transform.position = new Vector3(transform.position.x,player.transform.position.y, 10f); 
+			player.transform.position = new Vector3(transform.position.x,player.transform.position.y, 16f); 
 			Player.isHidden = true;
 		} else if (Player.isHidden) {
 			player.transform.position = new Vector3(transform.position.x,player.transform.position.y, 0f);
