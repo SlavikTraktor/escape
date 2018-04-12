@@ -884,7 +884,7 @@ GameObject:
   - component: {fileID: 665699459}
   m_Layer: 0
   m_Name: Wall (3)
-  m_TagString: Untagged
+  m_TagString: First Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1486,6 +1486,7 @@ GameObject:
   - component: {fileID: 844774359}
   - component: {fileID: 844774358}
   - component: {fileID: 844774357}
+  - component: {fileID: 844774360}
   - component: {fileID: 844774356}
   - component: {fileID: 844774355}
   - component: {fileID: 844774354}
@@ -1629,6 +1630,17 @@ Transform:
   m_Father: {fileID: 261765621}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &844774360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 844774353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99d97545b3ea4da395d7c050ad8ee52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &853464733
 GameObject:
   m_ObjectHideFlags: 0
@@ -2209,9 +2221,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1171875907}
   - component: {fileID: 1171875906}
+  - component: {fileID: 1171875908}
+  - component: {fileID: 1171875909}
   m_Layer: 0
   m_Name: FirstDoor
-  m_TagString: Untagged
+  m_TagString: Enter Doors
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2273,6 +2287,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1171875908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1171875905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b9643f141dbe4928831e04324285d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 2
+--- !u!61 &1171875909
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1171875905}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.64}
+    newSize: {x: 0.32, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.64}
+  m_EdgeRadius: 0
 --- !u!1 &1180126197
 GameObject:
   m_ObjectHideFlags: 0
@@ -2434,6 +2485,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -2488,7 +2540,7 @@ GameObject:
   - component: {fileID: 1299175875}
   m_Layer: 0
   m_Name: Wall (6)
-  m_TagString: Untagged
+  m_TagString: Last Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2905,7 +2957,7 @@ GameObject:
   - component: {fileID: 1788842619}
   m_Layer: 0
   m_Name: Door
-  m_TagString: Untagged
+  m_TagString: Exit Doors
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
