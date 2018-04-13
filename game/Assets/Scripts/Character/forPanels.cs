@@ -5,12 +5,11 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class forPanels : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IBeginDragHandler,IDragHandler{
-
 	public GameObject player; //person
 	private Rigidbody2D rb; // rb for person
 	public int count; //
 	public bool move;
-	public bool useSwap = true;
+	public static bool useSwap = true;
 	Coroutine coroutine = null;
 	public GameObject LPanel;
 	public GameObject RPanel;
@@ -28,6 +27,7 @@ public class forPanels : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IBe
 			if (eventData.delta.y < 0) {
 				player.transform.localScale =  new Vector2 (rb.transform.localScale.x, 1.4f);
 			} 
+
 		}
 		if(player.GetComponent<Player>().away == true)
 			useSwap = false;
