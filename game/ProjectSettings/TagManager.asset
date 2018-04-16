@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Walls
+  - Exit Doors
+  - Enter Doors
+  - First Wall
+  - Last Wall
   layers:
   - Default
   - TransparentFX
