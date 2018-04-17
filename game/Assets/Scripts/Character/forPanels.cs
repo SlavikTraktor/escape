@@ -60,8 +60,8 @@ public class forPanels : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IBe
 				RPanel.GetComponent<Image> ().enabled = false;
 			} 
 			else {
-				rb.transform.rotation = Quaternion.Euler (0, 180, 0);
-				LPanel.GetComponent<Image> ().enabled = false;
+					rb.transform.rotation = Quaternion.Euler (0, 180, 0);
+					LPanel.GetComponent<Image> ().enabled = false;
 				}
 			player.GetComponent <Animator> ().Play ("New Animation");
 			move = true;

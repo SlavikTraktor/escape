@@ -52,14 +52,14 @@ public class Player : MonoBehaviour {
 		isHidden = false;
 	}
 	
-	// void Update(){
-	// 	if (isHidden){
-	// 		L.GetComponent<Image> ().enabled = false;
-	// 		R.GetComponent<Image> ().enabled = false;
-	// 	}
-	// 	else{
-	// 		L.GetComponent<Image> ().enabled = true;
-	// 		R.GetComponent<Image> ().enabled = true;
-	// 	}
-	// }
+	void Update(){
+		if (isHidden){
+			L.GetComponent<Image> ().enabled = false;
+			R.GetComponent<Image> ().enabled = false;
+		}
+		else{
+			L.GetComponent<Image> ().enabled = true;
+			R.GetComponent<Image> ().enabled = true;
+		}
+	}
 }
