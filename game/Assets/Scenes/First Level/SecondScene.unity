@@ -1089,6 +1089,9 @@ MonoBehaviour:
   min: 0
   max: 36
   speed: 5
+  playerTarg: {x: 0, y: 0, z: 0}
+  trig: {x: 1, y: 0, z: 0}
+  obstacleRange: 5
 --- !u!61 &1172055266
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1110,7 +1113,7 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
   m_Size: {x: 0.31, y: 0.85}
   m_EdgeRadius: 0

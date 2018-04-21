@@ -10,7 +10,7 @@ public class Player : MonoBehaviour {
 	public bool away = true;
 	public GameObject L;
 	public GameObject R;
-	private bool sta;
+	private bool sta,left,right;
 	public static bool isHaveSecretKey;
 	public static bool isHidden;
 	//public Button but;
@@ -19,12 +19,14 @@ public class Player : MonoBehaviour {
 		if (other.gameObject.tag == "Ground")
 			away = true;
 		if (other.gameObject.tag == "Walls") {
-			if (L.GetComponent <forPanels> ().move == true) {
+			if (L.GetComponent <forPanels> ().move == true && left == true) {
+				right = false;
 				transform.position = Vector3.MoveTowards (transform.position,transform.position + 
 					new Vector3(1000f,0,0),Player.speed*Time.deltaTime);
 				sta = false;
 			}
-			if (R.GetComponent <forPanels> ().move == true) {
+			if (R.GetComponent <forPanels> ().move == true && right == true) {
+				left = false;
 				transform.position = Vector3.MoveTowards (transform.position,transform.position + 
 					new Vector3(-1000f,0,0),Player.speed*Time.deltaTime);
 				sta = true;
