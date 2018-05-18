@@ -13,6 +13,7 @@ public class forPanels : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IBe
 	Coroutine coroutine = null;
 	public GameObject LPanel;
 	public GameObject RPanel;
+	public bool left,right;
 
 	///////////////////////////////////////////////////////////////////////////Swap
 	public void OnBeginDrag(PointerEventData eventData){
@@ -39,6 +40,8 @@ public class forPanels : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IBe
 
 	/////////////////////////////////////////////////////////////////////////Game
 	void Start () {
+		left = true;
+		right = true;
 		rb = player.GetComponent <Rigidbody2D>();
 		player.GetComponent <Animator> ().Play ("stay");
 	}
@@ -55,15 +58,17 @@ public class forPanels : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IBe
 	/////////////////////////////////////////////////////////////////////////touch
 	public void OnPointerDown (PointerEventData eventData) {
 		if (!Player.isHidden) {
-			if (count == 1) {
+			if (count == 1 && right == true) {
+				left = false;
 				rb.transform.rotation = Quaternion.Euler (0, 0, 0);	
 				RPanel.GetComponent<Image> ().enabled = false;
 			} 
-			else {
+			else if(left == true) {
+					right = false;
 					rb.transform.rotation = Quaternion.Euler (0, 180, 0);
 					LPanel.GetComponent<Image> ().enabled = false;
 				}
-			player.GetComponent <Animator> ().Play ("New Animation");
+				player.GetComponent <Animator> ().Play ("New Animation");
 			move = true;
 			if (player.GetComponent<Player> ().away == true)
 				useSwap = true;
@@ -77,6 +82,8 @@ public class forPanels : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IBe
 		player.GetComponent <Animator> ().Play ("stay");
 		RPanel.GetComponent<Image> ().enabled = true;
 		LPanel.GetComponent<Image> ().enabled = true;
+		left = true;
+		right = true;
 	}
 
 

@@ -298,7 +298,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 409955065}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.67, y: -2.55, z: 8.7478895}
+  m_LocalPosition: {x: -12.39, y: -2.55, z: 8.7478895}
   m_LocalScale: {x: 9.37, y: 8.23, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -426,6 +426,8 @@ MonoBehaviour:
   move: 0
   LPanel: {fileID: 427376022}
   RPanel: {fileID: 1927025633}
+  left: 0
+  right: 0
 --- !u!1 &475655055
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,7 +838,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -29.8, y: 0.059217453}
+  m_Offset: {x: -28.14, y: 0.059217453}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -861,7 +863,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 30.28, y: 0.04024887}
+  m_Offset: {x: 28.4, y: 0.04024887}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1500,7 +1502,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1738471060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.03, y: -2.55, z: 8.7478895}
+  m_LocalPosition: {x: 42.66, y: -2.51, z: 8.7478895}
   m_LocalScale: {x: 9.37, y: 8.23, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1726,6 +1728,8 @@ MonoBehaviour:
   move: 0
   LPanel: {fileID: 427376022}
   RPanel: {fileID: 1927025633}
+  left: 0
+  right: 0
 --- !u!1 &1977934887
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,6 +1959,12 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.0625
       objectReference: {fileID: 0}
+    - target: {fileID: 114303423818463118, guid: 3fd39021e9be54f7181b778155b67075,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1c51c8d827c6afe4c9040e9554f3a84d,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3fd39021e9be54f7181b778155b67075, type: 2}
   m_IsPrefabParent: 0

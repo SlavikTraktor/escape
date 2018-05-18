@@ -35,7 +35,8 @@ public class Player : MonoBehaviour {
 			R.GetComponent <forPanels> ().move = false;
 			GetComponent<Animator> ().Play ("stay");
 		}
-		if (L.GetComponent <forPanels> ().move == true || R.GetComponent <forPanels> ().move == true)
+		if (L.GetComponent <forPanels> ().move == true && R.GetComponent <forPanels> ().move == false ||
+			L.GetComponent <forPanels> ().move == false && R.GetComponent <forPanels> ().move == true)
 			GetComponent<Animator> ().Play ("New Animation");
 		else GetComponent<Animator> ().Play ("stay");
 	}

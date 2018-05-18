@@ -1406,6 +1406,8 @@ MonoBehaviour:
   move: 0
   LPanel: {fileID: 1541982075}
   RPanel: {fileID: 1447615165}
+  left: 0
+  right: 0
 --- !u!114 &1447615167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1509,6 +1511,8 @@ MonoBehaviour:
   move: 0
   LPanel: {fileID: 1541982075}
   RPanel: {fileID: 1447615165}
+  left: 0
+  right: 0
 --- !u!114 &1541982078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1617,6 +1621,9 @@ MonoBehaviour:
   min: -6
   max: 38
   speed: 5
+  playerTarg: {x: 0, y: 0, z: 0}
+  trig: {x: 10, y: 0, z: 0}
+  obstacleRange: 5
 --- !u!212 &1573249429
 SpriteRenderer:
   m_ObjectHideFlags: 0

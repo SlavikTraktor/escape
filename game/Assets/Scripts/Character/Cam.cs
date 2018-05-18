@@ -18,7 +18,7 @@ public class Cam : MonoBehaviour {
 		if(Open.way == 1)
 		transform.position = new Vector3 (startWall.transform.position.x + 3f, transform.position.y, transform.position.z);
 		if(Open.way == -1)
-		transform.position = new Vector3 (endWall.transform.position.x - 2f, transform.position.y, transform.position.z);
+		transform.position = new Vector3 (endWall.transform.position.x - 4f, transform.position.y, transform.position.z);
 	}
 
 	void LateUpdate(){
