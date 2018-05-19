@@ -15,11 +15,11 @@ public class MainMenu : MonoBehaviour {
 	}
 
 	public void ButtonStart(){
-		SceneManager.LoadScene (0);
+		SceneManager.LoadScene (1);
 	}
 
 	public void ButtonLoad(){
-		SceneManager.LoadScene (0);
+		SceneManager.LoadScene (1);
 	}
 
 	public void ButtonExit(){
@@ -28,6 +28,6 @@ public class MainMenu : MonoBehaviour {
 
 
 	public void ButtonSetting(){
-		SceneManager.LoadScene (0);
+		SceneManager.LoadScene (1);
 	}
 }

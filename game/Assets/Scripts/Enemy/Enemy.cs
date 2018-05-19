@@ -6,8 +6,13 @@ public class Enemy : MonoBehaviour {
 
 	public float min, max, speed;
 	private float target;
+	public Vector3 playerTarg;
+	public Vector3 trig = new Vector3(10f,0f,0f);
+	GameObject player;
+	public float obstacleRange = 5.0f;
 
 	void Start () {
+		player = GameObject.Find("Player");
 		target = max;
 	}
 	
@@ -22,11 +27,5 @@ public class Enemy : MonoBehaviour {
 			target = max;
 			transform.localScale = new Vector2(transform.localScale.y, transform.localScale.y);
 		}
-	}
-
-	void OnCollisionEnter2D(Collision2D other) {
-		if (other.gameObject.name == "Player" && !Player.isHidden) {
-			Debug.Log("You are gay");
-		} 
 	}
 }

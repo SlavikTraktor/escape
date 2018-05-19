@@ -1,10 +1,11 @@
 Android
 SceneListBegin?
-Assets/Scenes/First level.unity
-Assets/Scenes/SecondScene.unity
-Assets/Scenes/ThirdSecene.unity
-Assets/Scenes/FourthScene.unity
-Assets/Scenes/SecretScene.unity
+Assets/Scenes/Menu/Main Menu.unity
+Assets/Scenes/First Level/FirstScene.unity
+Assets/Scenes/First Level/SecondScene.unity
+Assets/Scenes/First Level/ThirdSecene.unity
+Assets/Scenes/First Level/FourthScene.unity
+Assets/Scenes/First Level/SecretScene.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SecretBottle
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -121,7 +122,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-2cb2307e9d9e96348f61e9a6c24128ff Assembly-CSharp.dll:.Enemy
+58c416cb9e9d14d7862a0ca442769fc5 Assembly-CSharp.dll:.Enemy
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 2b5bd81c259c691324a17af9a3e97e85 Assembly-CSharp.dll:.Cam
@@ -149,7 +150,8 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenu
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 782155584b486247c2079f380bdd92b5 Assembly-CSharp.dll:.SecretDoor
-d5769f4235cc724b6f18c96e03667a04 Assembly-CSharp.dll:.forPanels
+d595411d6edbcbd57f381a9d31734beb Assembly-CSharp.dll:.forPanels
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TouchHide
