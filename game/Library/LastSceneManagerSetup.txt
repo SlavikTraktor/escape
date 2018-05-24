@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Scenes/First Level/ThirdSecene.unity
+=======
 - path: Assets/Scenes/First Level/FourthScene.unity
+>>>>>>> c49afda2f513f420c2c76463eca80a3f2081d185
   isLoaded: 1
   isActive: 1
